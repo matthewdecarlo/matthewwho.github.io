@@ -11,17 +11,17 @@
   simple, so you can just feel free to type. =) -->
 
 
-# Title
-#### Subtitle
-#### Date
+# N00b a First Post
+#### matthewwho - blog (TEMP)
+#### October 7th 2014
 
-Paragraph 1
+Answering some Git/ GitHub Version Control n00b questions.
 
-Paragraph 2
+· What are the benefits of version control?
+Using a Version control (system) is like having a crew of personal assistances who meticulously organize and catalog all of your updates/ changes to your project.  Best of all with a open source version control system like git — you get those amazing assistances for free!
 
-Paragraph 3
+· How does Git help you keep track of changes?
+Remember that crew of assistances mentioned above?  Well, Git works efficiently and tirelessly to make sure that everything is organize and cataloged for you.  As long as you give Git a memo about the changes you made when committing them, Git will make it easy for you to sort though the backlog of versions/ changes.
 
-Add as many paragraphs as you want!!!
-
-
-
+· Why use GitHub to store your code?
+GitHub is the Grand Central Station of version control repositories.   That is, if Grand Central let you ride the trains for free if you promised to share everything you brought with you on the train with your fellow commuters.  GitHub is a social sharing website, where members can access it for free and share their code openly.  Or for a small fee you can choose to be antisocial or start you own secret elite club.
