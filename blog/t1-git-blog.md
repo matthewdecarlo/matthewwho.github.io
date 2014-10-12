@@ -11,6 +11,6 @@ Using a Version control (system) is like having a crew of personal assistants wh
 Remember that crew of assistants mentioned above?  Well, Git works efficiently and tirelessly to make sure that everything is organize and cataloged for you.  As long as you give Git a memo about the changes you made when committing them, Git will make it easy for you to sort though the backlog of versions/ changes.
 
 · Why use GitHub to store your code?
-GitHub is the Grand Central Station of version control repositories.   That is, if Grand Central let you ride the trains for free if you promised to share everything you brought with you on the train with your fellow commuters.  GitHub is a social sharing website, where members can access it for free and share their code openly.  Or for a small fee you can choose to be antisocial or start you own secret elite club.
+GitHub is the Grand Central Station of version control repositories.   That is, if Grand Central let you ride the trains for free if you promised to share everything you brought with you on the train with your fellow commuters.  GitHub is a social sharing website, where members can access it for free and share their code openly.  For a small fee you can choose to be antisocial or even start you own secret elite club.
 
 Note: N00b is internet slang for someone who is new to a topic or skill set.
