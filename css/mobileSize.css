@@ -1,0 +1,66 @@
+/*For screens/ devices that are mobile-size.*/
+@media only screen and (max-width : 600px) {
+	.mainNavigation {
+		position: absolute;
+		top: 10px;
+	    width: 100%;
+		}
+
+	.mainNavigationRight {
+		top: 80px;
+		position: relative;
+	    width: 100%;
+	    font-size: 14pt;
+	    font-weight: 400;
+	    
+	}
+		.mainNavigationRight.left{
+			width: 33%;
+			float: right;
+		}
+		.mainNavigationRight.middle{
+			width: 34%;
+			float: right;
+
+		}
+		.mainNavigationRight.right{
+			width: 33%;
+			float: right;
+		}
+
+	.mainNavigationRightPopulateContainer{
+		top: 130px;
+		position: absolute;
+		float: right;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
+	.mainNavigationRightPopulateImageContainer{
+		float:left;
+		padding:45px;
+	}
+
+	.mainNavigationRightPopulate {
+		position: relative;
+		width: 100%;
+		padding: 0;
+		padding-bottom: 15px;
+	}
+	.mainNavigationRightPopulate h1{
+		margin-left: 10px;
+		margin-top: 15px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 14pt;
+		font-weight: 500;
+		color: #666666;
+	}
+
+	.mainNavigationRightPopulate p{
+		margin-left: 10px;
+		margin-right: 15px;
+		font-size: 10pt;
+		font-weight: 400;
+	}
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>matthewwho.com</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/nav.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/largeSize.css">
+  <link rel="stylesheet" type="text/css" href="css/mediumSize.css">
+  <link rel="stylesheet" type="text/css" href="css/mobileSize.css">
+</head>
+
+<body ontouchstart="">
+
+	<!-- Navigation -->
+	<div class="outerContainer">
+		<div class="mainNavigationContainer">	
+				<div class="mainNavigationRight Is right">About</div>
+				<div class="mainNavigationRight Is middle">Contact</div>
+				<div class="mainNavigationRight Is left selected">
+					Update <div class="mainNavigationRightArrow"></div>
+				</div>
+
+			<div class="mainNavigationMiddle">.</div>
+		
+			<div class="mainNavigation">
+				<div class="mainNavigationLogo"><a href="index.htm" >matthewwho</a></div>
+			</div>
+			<div class="mainNavigationRightPopulateContainer">
+				<div class="mainNavigationRightPopulate">
+					<div class="mainNavigationRightPopulateImageContainer">
+					<img src="images/user_photo2.png">
+					</div>
+					<h1>this just in!</h1>
+					<p>Lorem ipsum Ullamco mollit laborum sunt adipisicing elit commodo Duis eu dolor Excepteur adipisicing minim dolor aliquip laborum.</p>
+				</div>
+				<div class="mainNavigationRightPopulate">
+					<div class="mainNavigationRightPopulateImageContainer">
+					<img src="images/user_photo.png">
+					</div>
+					<h1>another big update!</h1>
+					<p>Lorem ipsum Ullamco mollit laborum sunt adipisicing elit commodo Duis eu dolor Excepteur adipisicing minim dolor aliquip laborum.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END Navigation-->
+
+	<!-- JavaScript -->
+	<script type="text/javascript">
+	"use strict";
+
+	document.addEventListener('DOMContentLoaded',
+	function(){
+		
+		var NavigationRight = document.getElementsByClassName('mainNavigationRight');
+
+		for (var i = 0; i < NavigationRight.length; i += 1){
+			NavigationRight[i].addEventListener('click', activeTab)
+		}
+
+	function activeTab(event) {
+		deactivateAllTabs();
+		;
+
+		//console.log(this.className);
+	}
+
+	function deactivateAllTabs(){
+		var x = document.getElementsByClassName('mainNavigationRightPopulate');
+		
+		for (var i = 0; i < x.length; i += 1) {
+			x[i] = "mainNavigationRightPopulate Is hidden"
+		}
+
+		console.log(x)
+	}
+
+	});
+
+	</script>
+	<!-- END JavaScript -->
+
+	<!-- jQuery -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+	<!-- END jQuery -->
+
+	<!-- Google Fonts -->
+	<script type="text/javascript" src="js/WebFontConfig.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+/*For screens/ devices that are mid-size.*/
+@media only screen and (max-width : 900px) {
+	.mainNavigation {
+	    width: 100%;
+		float:left;
+
+	}
+		.mainNavigationLogo:hover{
+			background-color: #5582b4;
+		}
+
+	.mainNavigationMiddle {
+	    width: 20px;
+	    float: right;
+	    color: #f5f1e8;
+	}
+
+	.mainNavigationRight {
+	    background-color: #99CC99;
+	    position: relative;
+	    top: 125px;
+	    height: 50px;
+		float: right;
+		width: 100px;
+		line-height: 50px;
+
+	}
+
+	.mainNavigationRightPopulateContainer{
+		margin-top: 75px;
+		border-radius: 5px;
+		position: relative;
+		float: right;
+		width: 250px;
+	}
+
+	.mainNavigationRightPopulate {
+		position: relative;
+		margin-top: 15px;
+		border-radius: 5px;
+		float: right;
+		width: 250px;
+	}
+}

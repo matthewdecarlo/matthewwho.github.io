@@ -1,0 +1,43 @@
+@media only screen and (min-width : 900px) {
+	.mainNavigationContainer {
+		position: relative;
+		top: 50px;
+		height: auto;
+		overflow: hidden;
+	}
+
+	.mainNavigationMiddle {
+	    width: 20px;
+	    float: right;
+	}
+
+	.mainNavigation {
+	    width: auto;
+	    letter-spacing:1px;
+	    overflow: hidden;
+	}
+
+	.mainNavigationRight {
+	    top: 50px;
+	    height: 50px;
+		float: right;
+		width: 100px;
+		line-height: 50px;
+	}
+
+	.mainNavigationRightPopulateContainer{
+		margin-top: 0;
+		border-radius: 5px;
+		position: relative;
+		float: right;
+		width: 250px;
+	}
+
+	.mainNavigationRightPopulate {
+		margin-top: 15px;
+		border-radius: 5px;
+		position: relative;
+		float: right;
+		width: 250px;
+	}
+}

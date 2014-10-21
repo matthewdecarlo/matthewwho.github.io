@@ -1,0 +1,36 @@
+.css3-notification {
+	-webkit-animation: bounce 1500ms ease-out;
+	-moz-animation: bounce 1500ms ease-out;
+	-o-animation: bounce 1500ms ease-out;
+	animation: bounce 1500ms ease-out;
+}
+
+/* Webkit, Chrome and Safari */
+@-webkit-keyframes bounce {
+  20% {
+  	-webkit-transform:translateY(20%);
+  }
+  50% {
+  	-webkit-transform:translateY(0%);
+  }
+}
+
+/* Mozilla Firefox 15 below */
+@-moz-keyframes bounce {
+  20% {
+    -moz-transform:translateY(20%);
+  }
+  50% {
+    -moz-transform:translateY(0%);
+  }
+}
+
+/* W3, Opera 12+, Firefox 16+ */
+@keyframes bounce {
+  20% {
+    transform:translateY(20%);
+  }
+  50% {
+    transform:translateY(0%);
+  }
+}

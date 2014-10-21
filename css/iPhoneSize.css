@@ -1,0 +1,27 @@
+/*For iPhone 5+ in portrait.*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+	.mainNavigation {
+		position: absolute;
+		top: 50px;
+	    width: 100%;
+		}
+
+	.mainNavigationRight {
+	    width: 100%;
+	    
+	}
+		.mainNavigationRight.left{
+			width: 33%;
+			float: right;
+		}
+		.mainNavigationRight.middle{
+			width: 34%;
+			float: right;
+
+		}
+		.mainNavigationRight.right{
+			width: 33%;
+			float: right;
+		}
+
+}
