@@ -81,9 +81,10 @@
 		border-top: 13px solid #89b589;
 	}
 
-.mainNavigationRightPopulateImageContainer{
-	float:left;
+.mainNavigationRightPopulateImageContainer {
+	float: left;
 	padding:35px;
+
 }
 
 .mainNavigationRightPopulate {
@@ -127,25 +128,41 @@
 	border-radius: 50px;
 }
 
+#bodyMiddle {
+	width: 70px;
+	color: #f5f1e8;
+	float: right;
+}
+
 #postContainer{
-	z-index: 2;
-	margin-top: -207px;
-	background-color: pink;
+	margin-top: 15px;
+	width: auto;
+	overflow: hidden;
+	
 }
 
 .post {
-	z-index: 2;
-	float: left;
+	float: right;
 	background-color: white;
 	border-radius: 5px;
 	padding: 20px;
-	width: 62.5%;
 	margin-bottom: 40px;
 }
 
 .post p{
 	text-indent: 20px;
 	font-size: 14px;
+	line-height: 20px;
+	margin: 20px, 0, 10px, 0;
+}
+
+
+.post a:link {
+	color: gray;
+	text-decoration: underline;
+}
+.post a:hover {
+	cursor: hand;
 }
 
 .post h1 {
