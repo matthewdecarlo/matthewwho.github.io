@@ -161,6 +161,12 @@
 	color: gray;
 	text-decoration: underline;
 }
+
+.post a:visited{
+	color: gray;
+	text-decoration: underline;
+}
+
 .post a:hover {
 	cursor: hand;
 }
