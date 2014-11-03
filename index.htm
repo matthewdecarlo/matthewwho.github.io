@@ -50,6 +50,24 @@
 
 	<div id="postContainer">
 		<div class="post">
+					<h1>The Enumerable Method</h1>
+	                <h2>matthewwho - blog (Technical Blog)</h2>
+	                <h2>The Enumerable Method November 1st 2014</h2>
+
+					<p>As the <a href=“http://ruby-doc.org/core-2.1.4/Enumerable.html”>Ruby Docs</a> state: The <code>Enumerable</code> mixin provides collection classes with several traversal and searching methods, and with the ability to sort. The class must provide a method each, which yields successive members of the collection. If <code>Enumerable #max</code>, <code>#min</code>, or <code>#sort</code> is used, the objects in the collection must also implement a meaningful <code>&#60;=&#62;</code> operator, as these methods rely on an ordering between members of the collection.</p>
+
+					<p>In the most simplistic description of the <code>Enumerable#group_by</code> is that it breaks a collection into groups based on some given criteria.</p>
+
+					<p>It expects a block containing the criteria by which the items in the collection will be grouped.</p>
+
+					<p>It will return a hash where each key represents a group. Each key's corresponding value is an array containing the members of that group.</p>
+
+					<p>Example:</p>
+					<code>$ (0..15).group_by {|number| number % 3}</code>
+					<code>$ => {0=>[0, 3, 6, 9, 12, 15], 1=>[1, 4, 7, 10, 13], 2=>[2, 5, 8, 11, 14]}</code>
+		</div>
+
+		<div class="post">
 						<h1>Thinking Styles and Learning</h1>
 		                <h2>matthewwho - blog (Cutural Blog)</h2>
 		                <h2>Thinking and Learning October 26th 2014</h2>
