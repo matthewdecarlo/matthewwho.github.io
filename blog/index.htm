@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Our Humble Explanation and Cheat Sheet</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href = "assets/css/bootstrap.min.css" rel = "stylesheet">
+		<link href = "assets/css/style.css" rel = "stylesheet">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="assets/js/bootstrap.js"></script>
+	</head>
+
+		<div class = "navbar navbar-inverse navbar-static-top">
+			<div class = "container">
+					<a href = "index.htm" class = "navbar-brand">DECARLO&SHERWANI </a>
+
+					<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+					</button>
+
+					<div class = "collapse navbar-collapse navHeaderCollapse">
+						<ul class = "nav navbar-nav navbar-right">
+							
+							<li><a href = "#">cheet sheets</a></li>
+							<li><a href = "#">about us</a></li>
+							<li class = "dropdown">
+								<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">contact <b class= "caret"></b></a>
+								<ul class = "dropdown-menu">
+								<li><a href = "https://twitter.com/TrueMatthewWho">twitter</li></a>
+								<li><a href = "https://github.com/matthewwho">github</li></a>
+								<li><a href = "https://plus.google.com/u/0/+MatthewDeCarloMatthewWho">google+</li></a>
+								<li><a href = "http://lnkd.in/duh8vGB">linkedin</li></a>
+								</ul>
+							</li>
+						</ul>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+    <div class="row">
+        <div class="col-md-10">
+	        <h1>Coding Loops</h1>
+	        <h2>Ruby v. JavaScript</h2>
+        </div>
+
+        <div class="col-md-6">
+        <h3>For-loop</h3>
+        <p>Ruby has some cool tricks where you can enumerate with built in methods.  In JavaScript there is no such luck! The following cheat sheet should help bridge the gap for those who learned to code with Ruby and are picking up JavaScript.  Good luck, you're going to need it!</p>
+        
+        <p>With the for-loop in Ruby, the use of an array allows for the loop iterate over the array.  Once for each element.  </p>
+					<code id="topper">
+						Ruby: for-loop
+						<div class="circle red"></div>
+						<div class="circle yellow"></div>
+						<div class="circle green"></div>
+					</code>
+
+					<code>
+						$ for a_number in ( [1, 2, 3, 4, 5] ) do <br>
+						$ puts "The current number in the array is: #{a_number}" <br>
+						$ end<br>
+						<br>
+						=> The current number in the array is: 1<br>
+						=> The current number in the array is: 2<br>
+						=> The current number in the array is: 3<br>
+						=> The current number in the array is: 4<br>
+						=> The current number in the array is: 5<br>
+					</code>
+					<br>
+
+					<p>The for-loop in JavaScript requires an integer variable be initialized, followed by a comparison, and then a modification to the integer variable.  In this example, the modification increases the number by one at each pass of the for-loop.</p>
+					<code id="topper">
+						JavaScript: for-loop
+						<div class="circle red"></div>
+						<div class="circle yellow"></div>
+						<div class="circle green"></div>
+					</code>
+
+					<code>
+						> for (var aNumber = 1; aNumber <= [1,2,3,4,5].length; aNumber +=1) {<br>
+  					> console.log("The current number in the array is: " + aNumber)<br>
+						> };<br>
+						<br>
+						&nbsp;&nbsp; The current number in the array is: 1<br>
+						&nbsp;&nbsp; The current number in the array is: 2<br>
+						&nbsp;&nbsp; The current number in the array is: 3<br>
+						&nbsp;&nbsp; The current number in the array is: 4<br>
+						&nbsp;&nbsp; The current number in the array is: 5<br>
+					</code>
+
+				</div>
+			<div class="col-md-6">
+        <h3>Each/ forEach loop</h3>
+        <p>Enumeration is a beautiful thing.  If you want to get each value or of an array the each method in Ruby or the forEach function in JavaScript is your guy!</p>
+
+        <p>With each of the values in the array, Ruby passes one value from the array into the code block.  As Ruby does this it creates a new local variable within the instance of the block of code.  The each loop continues to iterate until it has passed each value from the array.  (Note: hashes in Ruby also have an each enumerator method.)</p>
+					<code id="topper">
+						Ruby: each-loop
+						<div class="circle red"></div>
+						<div class="circle yellow"></div>
+						<div class="circle green"></div>
+					</code>
+
+					<code>
+						$ ['one', 'two', 'three', 'four', 'five'].each do |a_word|<br>
+						$ puts " The current word in the array is: #{a_word}"<br>
+						$ end<br>
+						<br>
+						=> The current word in the array is: one<br>
+					  => The current word in the array is: two<br>
+					  => The current word in the array is: three<br>
+					  => The current word in the array is: four<br>
+					  => The current word in the array is: five<br>
+					</code>
+					<br>
+
+					<p>The JavaScript forEach function only works on arrays.  It calls a function for each value in an array and runs the function's code block.  In this example the code block prints the value once per each iteration.</p>
+					<code id="topper">
+						JavaScript: forEach-loop
+						<div class="circle red"></div>
+						<div class="circle yellow"></div>
+						<div class="circle green"></div>
+					</code>
+
+					<code>
+						> ['one', 'two', 'three', 'four', 'five'].forEach(function(aWord){<br>
+  					> console.log("The current word in the array is: " + aWord)<br>
+						> });<br>
+						<br>
+						&nbsp;&nbsp; The current word in the array is: one<br>
+						&nbsp;&nbsp; The current word in the array is: two<br>
+						&nbsp;&nbsp; The current word in the array is: three<br>
+						&nbsp;&nbsp; The current word in the array is: four<br>
+						&nbsp;&nbsp; The current word in the array is: five<br>
+					</code>
+        </div>
+    </div>
+</div>
+
+
+
+		<div class = "navbar navbar-default navbar-bottom">
+			<div class = "container">
+				<p class = "navbar-text pull-left">site built by decarlo</p>
+				<a class = "navbar-btn btn btn-info pull-right" href = "https://twitter.com/TrueMatthewWho">follow on twitter</a>
+			</div>
+		</div>
+	<body>
+	</body>
+</html>
