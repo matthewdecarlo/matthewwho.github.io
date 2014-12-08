@@ -1,0 +1,232 @@
+//custom css goes here
+
+/*
+
+Contents
+================================
+
+1. Imports
+2. Navigation
+3. Pages
+4. Shared Styles
+
+================================
+
+*/
+
+// 1. Imports
+// --------------------------------------------------
+
+
+// 2. Navigation
+// --------------------------------------------------
+#main-nav{
+	left: 0;
+	right: 0;
+	position: relative;
+	margin: 20px;
+	height: 40px;
+}
+
+.nav-spacer{
+	float: left;
+	width: 2%;
+}
+
+.nav-col-left{
+	width: 500px;
+	height: auto;
+	overflow: hidden;
+	}
+	
+
+	.mainNavigationMiddle {
+	    width: 20px;
+	    float: right;
+	}
+
+	.mainNavigation {
+	    width: auto;
+	    letter-spacing:1px;
+	    overflow: hidden;
+	}
+
+	.mainNavigationRight {
+		    background-color: #99CC99;
+    text-align:center;
+	color: white;
+	font-size: 12pt;
+	font-weight: 200;
+	/*letter-spacing:1px;*/
+	cursor: pointer;
+	    top: 50px;
+	    height: 50px;
+		float: right;
+		width: 100px;
+		line-height: 50px;
+	}
+
+	.mainNavigationRightPopulateContainer{
+		margin-top: 0;
+		border-radius: 5px;
+		position: relative;
+		float: right;
+		width: 250px;
+	}
+
+	.mainNavigationRightPopulate {
+		margin-top: 15px;
+		border-radius: 5px;
+		position: relative;
+		float: right;
+		width: 250px;
+	}
+
+	.mainNavigationRight.left{
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+	}
+	.mainNavigationRight.middle{
+	}
+	.mainNavigationRight.right{
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+	.mainNavigationRight:focus{
+		background-color: #89b589;
+	}
+	.mainNavigationRight.selected{
+		background-color: #89b589;
+	}
+	.mainNavigationRight:hover{
+		background-color: #89b589;
+	}
+	.mainNavigationRight:active{
+		background-color: #89b589;
+	}
+	.mainNavigationRightArrow{
+		content: "";
+		position: relative;
+		left: 50%; /* centers the element's left edge */
+	  	margin-left: -16px; /* <-- moves it back half it's own width */
+	  	width: 0px; /* <-- don't need unit on 0 */
+	  	height: 0px; /* <-- don't need unit on 0 */
+		xxmargin: 0px auto; /* <-- eliminate, use above margin */
+		border-left: 16px solid transparent;
+		border-right: 16px solid transparent;
+		border-top: 13px solid #89b589;
+	}
+
+.mainNavigationRightPopulateImageContainer {
+	float: left;
+	padding:35px;
+
+}
+
+.mainNavigationRightPopulate {
+    background-color: white;
+    border-radius: 5px;
+	color: gray;
+	font-size: 10pt;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	vertical-align: text-top;
+	margin: 0;
+	font-weight: 300;
+}
+
+.mainNavigationRightPopulate.hidden{
+	visibility: hidden;
+}
+	.mainNavigationRightPopulate:focus{
+		background-color: #F5F5F5;
+	}
+	.mainNavigationRightPopulate.selected{
+		background-color: #F5F5F5;
+	}
+	.mainNavigationRightPopulate:hover{
+		background-color: #F5F5F5;
+	}
+	.mainNavigationRightPopulate:active{
+		background-color: #F5F5F5;
+	}
+	.mainNavigationRightPopulate img{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 10px;
+	margin-left: 10px;
+	position: absolute;
+	top: 0; left: 0; bottom: 0;
+	border-radius: 50px;
+}
+
+
+$bgDefault      : #86c3ef;
+$bgHighlight    : #7fb3eb;
+$colDefault     : #f7f7f7;
+$colHighlight   : #ffffff;
+
+.navbar-default {
+	height: 50px;
+	padding: 0;
+	margin: 0;
+	background-color: $bgDefault;
+	border-color: $bgHighlight;
+	.navbar-brand {
+		color: $colDefault;
+		&:hover, &:focus { 
+			color: $colHighlight; }}
+	.navbar-text {
+		color: $colDefault; }
+	.navbar-nav {
+		> li {
+			> a {
+				color: $colDefault;
+				&:hover,  &:focus {
+					color: $colHighlight; }}}
+		> .active {
+			> a, > a:hover, > a:focus {
+				color: $colHighlight;
+				background-color: $bgHighlight;
+				height: 49px; }}
+		> .open {
+			> a, > a:hover, > a:focus {
+				color: $colHighlight;
+				background-color: $bgHighlight; }}}
+	.navbar-toggle {
+		border-color: $bgHighlight;
+		&:hover, &:focus {
+			background-color: $bgHighlight; }
+		.icon-bar {
+			background-color: $colDefault; }}
+	.navbar-collapse,
+	.navbar-form {
+		border-color: $colDefault; }
+	.navbar-link {
+		color: $colDefault;
+		&:hover {
+			color: $colHighlight; }}}
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu {
+		> li > a {
+			color: $colDefault;
+			&:hover, &:focus {
+				color: $colHighlight; }}
+		> .active {
+			> a, > a:hover, > a:focus, {
+				color: $colHighlight;
+				background-color: $bgHighlight; }}}
+}
+
+// 3. Pages
+// --------------------------------------------------
+
+
+// 4. Shared Styles
+// --------------------------------------------------
+body {
+	background-color: #f5f1e7;
+}
+

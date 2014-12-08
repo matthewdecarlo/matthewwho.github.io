@@ -1,0 +1,17 @@
+---
+layout: default
+title: MatthewWho
+---
+<!-- Content
+    ================================================== -->
+
+<div id="post_contain">
+{% for post in site.posts %}
+	<a href="{{ post.url }}">
+		<div class="img_container" style="background-image: url({{ post.image }}); background-position: center;">
+		<div class="post_tag">{{ post.title }}</div>
+		</div>
+	</a>
+{% endfor %}
+<span class="stretch"></span>
+</div>
