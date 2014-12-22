@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Morse Code Translator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="morse_code.js"></script>
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+        <h1>M<div class="letter_highlight">o</div>rse C<div class="letter_highlight">o</div>de Translat<div class="letter_highlight">o</div>r</h1>
+        <h4>-- <div class="letter_highlight">---</div> .-. ... . / -.-. <div class="letter_highlight">---</div> -.. . / - .-. .- -. ... .-.. .- - <div class="letter_highlight">---</div> .-.</h4>
+    </div>
+    <div id="transcribe">
+      <form action="javascript:void(0);" onSubmit="populate_transcription()">
+        <input type="text" id="message" name="message" placeholder="Enter a message to transcribe">
+      </form>
+
+      <div id="translation"></div>
+    </div>
+
+        
+
+    </div>
+
+      <div id="footer">
+          a web application by <a href="https://twitter.com/truematthewwho">Matthew
+          DeCarlo</a> + <a href="https://twitter.com/MMooreDesign">Miriam Moore</a>
+          using HTML5, CSS3, + JavaScript 
+          using HTML5, CSS3, + JavaScript  |  &#169; 2014
+      </div>
+</body>
+</html>
